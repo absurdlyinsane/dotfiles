@@ -1,0 +1,26 @@
+[Default Applications]
+application/x-terminal-emulator=com.system76.CosmicTerm.desktop
+inode/directory=nemo.desktop
+text/html=brave-browser.desktop
+x-scheme-handler/about=brave-browser.desktop
+x-scheme-handler/http=brave-browser.desktop
+x-scheme-handler/https=brave-browser.desktop
+x-scheme-handler/terminal=com.system76.CosmicTerm.desktop
+x-scheme-handler/unknown=brave-browser.desktop
+video/mp4=com.github.rafostar.Clapper.desktop
+image/webp=org.gnome.eog.desktop
+video/webm=mpv.desktop
+application/x-shellscript=org.gnome.TextEditor.desktop
+text/markdown=code.desktop
+application/xml=org.gnome.TextEditor.desktop
+video/x-matroska=com.github.rafostar.Clapper.desktop
+
+[Added Associations]
+image/heif=org.gnome.eog.desktop;
+video/mp4=mpv.desktop;com.github.rafostar.Clapper.desktop;
+image/webp=org.gnome.eog.desktop;
+video/webm=mpv.desktop;
+application/x-shellscript=org.gnome.TextEditor.desktop;
+text/markdown=code.desktop;
+application/xml=org.gnome.TextEditor.desktop;
+video/x-matroska=com.github.rafostar.Clapper.desktop;

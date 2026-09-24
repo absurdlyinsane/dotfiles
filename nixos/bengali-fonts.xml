@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<!DOCTYPE fontconfig SYSTEM "fonts.dtd">
+<fontconfig>
+
+  <!-- Override Bengali font -->
+  <match>
+    <test name="lang" compare="contains">
+      <string>bn</string>
+    </test>
+    <edit name="family" mode="assign">
+      <string>Noto Sans Bengali</string>
+    </edit>
+  </match>
+
+</fontconfig>
