@@ -1,0 +1,1 @@
+. "C:\Users\insane\Documents\PowerShell\insane.ps1"
