@@ -1,0 +1,23 @@
+[language-server.clangd]
+command = "clangd"
+args = [
+    "--pretty",
+    "--background-index",
+    "-j=2",
+    "--clang-tidy",
+    "--clang-tidy-checks=performance-*,bugprone-*",
+    "--all-scopes-completion",
+    "--completion-style=detailed",
+    "--header-insertion=iwyu",
+    "--pch-storage=disk"
+]
+
+[[language]]
+name = "c"
+language-servers = ["clangd"]
+auto-format = false
+
+[[language]]
+name = "cpp"
+language-servers = ["clangd"]
+auto-format = false

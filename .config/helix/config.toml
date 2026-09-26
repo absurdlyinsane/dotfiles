@@ -2,7 +2,10 @@ theme = "base16_transparent"
 
 [editor]
 line-number = "relative"
-mouse = false
+cursorline = true
+mouse = true
+#gutters = ["diagnostics", "spacer", "line-numbers", "spacer", "diff"]
+true-color = true
 
 [editor.cursor-shape]
 insert = "bar"
@@ -11,3 +14,12 @@ select = "underline"
 
 [editor.file-picker]
 hidden = false
+
+[editor.lsp]
+enable = true
+display-messages = true
+auto-signature-help = true
+
+[keys.normal]
+"1" = "goto_line_start"
+"0" = "goto_line_end"
