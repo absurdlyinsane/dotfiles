@@ -1,0 +1,51 @@
+{
+    "remote.SSH.remotePlatform": {
+        "192.168.37.130": "linux",
+        "192.168.37.131": "windows",
+        "194.168.0.152": "linux"
+    },
+    "workbench.iconTheme": "vscode-icons",
+    "vsicons.dontShowNewVersionMessage": true,
+    "chat.disableAIFeatures": true,
+    "mssql.connectionGroups": [
+        {
+            "name": "ROOT",
+            "id": "ROOT"
+        }
+    ],
+    "redhat.telemetry.enabled": false,
+    "editor.smoothScrolling": true,
+    "editor.cursorSmoothCaretAnimation": "explicit",
+    "workbench.list.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
+    "editor.cursorBlinking": "smooth",
+    "editor.fontFamily": "CaskaydiaCove Nerd Font, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "CodeGPT.apiKey": "Mistral",
+    "editor.quickSuggestions": {
+        "other": "offWhenInlineCompletions",
+        "comments": "on",
+        "strings": "on"
+    },
+    "css.styleSheets": [
+        "src/**/*.css"
+    ],
+    "html-to-css-autocompletion.triggerCharacters": true,
+    "dotnet.projectsystem.enableLanguageServiceCache": true,
+    "js/ts.tsdk.promptToUseWorkspaceVersion": true,
+    "C_Cpp.default.compilerPath": "C:\\msvc-kit\\VC\\Tools\\MSVC\\14.44.35207\\bin\\Hostx64\\x64",
+    "C_Cpp.default.includePath": [
+        "C:\\\\msvc-kit\\\\Windows Kits\\\\10\\\\Include\\\\10.0.26100.0\\\\ucrt"
+    ],
+    "java.configuration.runtimes": [
+        {
+            "name": "JavaSE-25",
+            "path": "F:\\Programs\\GraalVM",
+            "default": true
+        }
+    ],
+    "workbench.sideBar.location": "right",
+    "update.enableWindowsBackgroundUpdates": false,
+    "update.mode": "manual",
+    "tabnine.experimentalAutoImports": true,
+}
